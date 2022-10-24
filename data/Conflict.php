@@ -15,6 +15,14 @@ namespace Data\One{
             return "my name is $this->name and my address $this->address". PHP_EOL;
         }
     }
+
+    class Sample{
+
+    }
+
+    class Dummy{
+        
+    }
 }
 
 
