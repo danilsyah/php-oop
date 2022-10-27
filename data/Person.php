@@ -25,7 +25,7 @@ class Person{
         return $a + $b;
     }
 
-    // self keyword
+    // self keyword, akses properties constant di dalam class sendiri
     function info(){
         echo "Author : " .self::AUTHOR . PHP_EOL;
     }
