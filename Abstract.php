@@ -7,7 +7,7 @@ use Data\{Location, City, Province, Country};
 $city = new City();
 $province = new Province();
 $country = new Country();
-// $location = new Location(); ERROR tidak bisa di panggil karena class abstract
+// $location = new Location(); ERROR tidak bisa di panggil karena class abstract, yang bisa di buat object hanya class turunannya
 
 
 $city->name = "Sumedang";
